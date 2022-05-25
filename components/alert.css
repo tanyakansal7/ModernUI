@@ -1,0 +1,27 @@
+.alert-box {
+	height: 4rem;
+	font-size: 1.7rem;
+	margin: 1rem;
+	display: flex;
+	align-items: center;
+	padding: 0.5rem 2.5rem;
+}
+.alert-box i {
+	padding-right: 1rem;
+}
+.alert-error {
+	color: var(--color-red-dark);
+	background-color: var(--color-red);
+}
+.alert-success {
+	color: var(--color-green-dark);
+	background-color: var(--color-green);
+}
+.alert-info {
+	color: var(--color-blue-dark);
+	background-color: var(--color-blue);
+}
+.alert-warning {
+	color: var(--color-yellow-dark);
+	background-color: var(--color-yellow);
+}
