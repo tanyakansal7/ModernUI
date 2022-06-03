@@ -1,0 +1,64 @@
+.badge-box {
+	position: relative;
+}
+.img-badge {
+	padding: 2px;
+	border-radius: 50%;
+	border: 2px solid white;
+	display: flex;
+	color: white;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	font-size: 0.75em;
+	box-sizing: border-box;
+}
+.badge-online {
+	background-color: #00b300;
+}
+.badge-offline {
+	background-color: var(--color-grey-dark);
+}
+.badge-dnd {
+	background-color: red;
+}
+.icon-badge {
+	padding: 2px;
+	border-radius: 50%;
+	display: flex;
+	color: white;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	background-color: var(--color-primary);
+}
+.badge-box .avatar-xs ~ .img-badge {
+	bottom: 1.1rem;
+	right: 1.2rem;
+	height: 1.4rem;
+	width: 1.4rem;
+}
+.badge-box .avatar-sm ~ .img-badge {
+	bottom: 1.2rem;
+	right: 1.3rem;
+	height: 1.8rem;
+	width: 1.8rem;
+}
+.badge-box .avatar-md ~ .img-badge {
+	bottom: 1.2rem;
+	right: 1.4rem;
+	height: 2.2rem;
+	width: 2.2rem;
+}
+.badge-box .avatar-lg ~ .img-badge {
+	bottom: 1.3rem;
+	right: 1.7rem;
+	height: 2.6rem;
+	width: 2.6rem;
+}
+.badge-box .btn-tertiary-icon ~ .icon-badge {
+	top: 0.16rem;
+	right: 1.68rem;
+	height: 2rem;
+	width: 2rem;
+}
