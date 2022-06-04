@@ -1,0 +1,108 @@
+.button-box {
+	display: flex;
+	align-items: center;
+	position: relative;
+	color: var(--color-white);
+}
+.button-box .btn-box-icon {
+	position: absolute;
+	left: 1.9rem;
+	color: inherit;
+	cursor: pointer;
+}
+.button-box .btn {
+	padding-left: 3.7rem;
+	padding-right: 2rem;
+}
+.button-box .btn:hover {
+	transform: translateY(0);
+	background-color: var(--color-secondary-dark);
+}
+.noHover {
+	pointer-events: none;
+}
+.btn {
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 1.2rem 2.5rem;
+	display: flex;
+	color: inherit;
+	border-radius: 0.5rem;
+	transition: all 0.2s;
+	position: relative;
+	/* font-size: inherit; */
+	margin: 0 1rem;
+	border: none;
+	cursor: pointer;
+}
+.btn:hover {
+	transform: translateY(-3px);
+	box-shadow: 0 1rem 2rem rgba(var(--color-black), 0.2);
+	cursor: pointer;
+}
+.btn:hover::after {
+	transform: scaleX(1.4) scaleY(1.6);
+	opacity: 0;
+}
+.btn-primary {
+	color: var(--color-white);
+	background-color: var(--color-primary);
+}
+.btn-secondary {
+	border: 0.2rem solid var(--color-primary);
+	color: var(--color-primary);
+}
+.btn-base{
+	background-color:var(--color-yellow-dark) ;
+	color: var(--color-white);
+}
+.btn-base-secondary{
+	border: 0.2rem solid var(--color-yellow-dark);
+	color: var(--color-yellow-dark);
+}
+.btn-ghost,
+.btn-link,
+.btn-secondary {
+	color: var(--color-yellow-dark);
+}
+.btn-ghost:hover {
+	background-color: var(--color-yellow-dark);
+	color: var(--color-white);
+	
+}
+.btn-link:hover {
+	text-decoration: underline;
+}
+
+/* -------SIZES-------- */
+.btn-xs {
+	padding: 0.7rem;
+	font-size: 1rem;
+}
+.btn-sm {
+	padding: 1.2rem;
+	font-size: 1.3rem;
+}
+.btn-md {
+	padding: 1.4rem;
+	font-size: 1.7rem;
+}
+.btn-lg {
+	padding: 1.7rem 2.2rem;
+	font-size: 2rem;
+}
+/* ----CUSTOM BUTTONS----- */
+.btn-tertiary-float {
+	border-radius: 50%;
+	padding: 2rem 2.2rem;
+	color: var(--color-white);
+	background-color: var(--color-yellow-dark);
+}
+.btn-tertiary-icon {
+	font-size: 2rem;
+	color: var(--color-grey-dark);
+	padding: 7px;
+}
+.btn-tertiary-icon:hover {
+	color: var(--color-grey-dark-3);
+}
