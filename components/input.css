@@ -1,0 +1,82 @@
+/* INPUT CONTAINER */
+.input-box {
+	width: 100%;
+	display: flex;
+	position: relative;
+	font-size: 1.5rem;
+}
+/* ICON USED WITH THE INPUT */
+.input__box-icon {
+	padding: 1.5rem 0.7rem;
+	align-self: center;
+	position: absolute;
+	left: 2px;
+	color: var(--color-grey-dark);
+}
+.input-box .input__box-icon ~ input {
+	padding-left: 3rem;
+}
+/* INPUT VARIANTS */
+.basic-input {
+	width: 100%;
+	padding: 1rem;
+	margin: 1rem 1rem 1rem 0rem;
+	border-radius: 0.5rem;
+	outline: none;
+	border: 1.3px solid;
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+.basic-input:hover {
+	cursor: pointer;
+}
+.basic-input:focus {
+	border: 1px solid var(--color-yellow-dark);
+}
+/* ----VALID INPUT WITH GREEN--- */
+.valid-input {
+	background-color: var(--color-green);
+}
+.valid-input:focus {
+	outline: none;
+
+	border: 1px solid #27c93f;
+}
+/* ----INVALID INPUT WITH RED----- */
+.invalid-input {
+	background-color: var(--color-red);
+}
+.invalid-input:focus {
+	outline: none;
+	border: 1px solid #ef4646;
+}
+/* ----fILLED INPUT WITH GREY---- */
+.filled-input {
+	background-color: var(--color-grey-light-2);
+}
+.filled-input:focus {
+	outline: none;
+	border: 1px solid var(--color-grey-dark);
+}
+/* ----iNPUT WITH ROUNDED EDGES---- */
+.input-rounded {
+	border-radius: 2.4rem;
+	border: 1px solid black;
+}
+/* INPUT SIZES */
+
+/* SMALL INPUT */
+.input-sm {
+	font-size: 1.1rem;
+	padding: 1rem;
+}
+/* MEDIUM INPUT */
+.input-md {
+	font-size: 1.5rem;
+	padding: 1.1rem;
+}
+/* LARGE INPUT */
+.input-lg {
+	font-size: 1.8rem;
+	padding: 1.5rem;
+}
