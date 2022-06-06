@@ -1,0 +1,27 @@
+.list-style {
+    margin: 1.2rem;
+}
+
+.square-bullets {
+    list-style-type: square;
+}
+
+.empty-bullets {
+    list-style-type: circle;
+}
+
+.list-alpha-lower {
+    list-style-type: lower-alpha;
+}
+
+.list-alpha-upper {
+    list-style-type: upper-alpha;
+}
+
+.list-roman {
+    list-style-type: upper-roman;
+}
+
+.no-bullets {
+    list-style-type: none;
+}
