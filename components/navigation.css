@@ -1,0 +1,78 @@
+/* NAVBAR BOX */
+.navigation-box {
+    height: 7rem;
+    background-color: var(--color-grey-light-2);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--color-grey-dark);
+    padding: 3rem;
+}
+/* NAVBAR LIST WITH USER,WISHLIST,CART */
+.nav-ul {
+    display: flex;
+    flex-direction: row;
+    gap: 3.5rem;
+}
+.nav-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all .1s ease-in-out;
+
+}
+
+.nav-ham {
+    display: none;
+}
+
+/* SEARCH BAR */
+.nav-search {
+    width: 100%;
+    padding: 0 2rem;
+}
+
+.logo-box {
+    font-weight: 700;
+    font-size: 2.4rem;
+    color: var(--color-black);
+    transition: all .1s ease-in-out;
+}
+
+.logo-box:hover {
+    transform: translateY(-2px);
+}
+/* MENU ITEMS INCLUDE HOME, SHOP */
+.menu-list {
+    display: flex;
+    gap: 1rem;
+    padding-left: 1.5rem;
+
+}
+
+.menu-item {
+    padding: 1rem;
+}
+
+/* HOVER EFFECT ON NAV ITEMS */
+.menu-item:hover,
+.nav-child:hover {
+    color: var(--color-yellow-dark);
+    transform: scale(1.1);
+}
+
+@media (max-width: 1120px) {
+    .nav-list {
+        display: none;
+    }
+
+    .menu-list {
+        display: none;
+    }
+
+    .nav-ham {
+        display: block;
+    }
+}
