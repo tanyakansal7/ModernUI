@@ -1,0 +1,104 @@
+/* Snackbar Style */
+.snackbar {
+	position: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 5px 1.3rem;
+	margin: 2rem;
+	font-size: 1.8rem;
+	background-color: var(--color-grey-dark-2);
+	border-radius: 5px;
+	bottom: 1rem;
+	z-index: 1000;
+}
+
+.snackbar-header {
+	font-size: 3em;
+}
+
+.snackbar-text {
+	color: white;
+	font-weight: 400;
+	letter-spacing: 1.5px;
+}
+
+.snackbar-body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* Snackbar buttons */
+.snackbar-btn-container {
+	justify-items: end;
+	display: flex;
+	margin-left: auto;
+}
+
+.snackbar-btn {
+	color: white;
+	text-align: center;
+	background-color: inherit;
+	border: none;
+	margin: 0 2rem;
+}
+
+.snackbar-btn:hover {
+	color: white;
+	background-color: inherit;
+
+
+	border: none;
+}
+
+/* Snackbar-dismiss */
+.snackbar-icon {
+	padding: 1.7rem;
+	font-size: 2rem;
+	color: white;
+}
+
+.snackbar-icon:hover {
+	cursor: pointer;
+	border-radius: 40%;
+}
+
+/* Variations */
+
+.stacked {
+	display: flex;
+	flex-direction: column;
+	padding: 1.5rem;
+	left: 25%;
+}
+
+.visible {
+	display: none;
+}
+
+/* Utils */
+.flex-center {
+	display: flex;
+}
+
+/* Toast */
+.toast-box {
+	padding: 1rem 2rem;
+	margin: 1rem;
+	border-radius: 4px;
+	position: fixed;
+	top: 3rem;
+	right: 3rem;
+}
+
+/* Variants of Toasts */
+.toast-success {
+	background-color: var(--color-green);
+	color: var(--color-green-dark)
+}
+
+.toast-error {
+	background-color: var(--color-red);
+	color: var(--color-red-dark);
+}
