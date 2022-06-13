@@ -1,0 +1,28 @@
+.heading--1 {
+	font-size: 4rem;
+	font-weight: 800;
+	display: block;
+	margin: 1rem;
+	letter-spacing: 0.1rem;
+}
+.heading--1-medium {
+	font-size: 3rem;
+	font-weight: 800;
+	display: block;
+	margin: 1rem;
+	letter-spacing: 0.1rem;
+}
+.heading--2 {
+	font-size: 2rem;
+	display: block;
+	margin: 1rem;
+	font-weight: 400;
+	letter-spacing: 0.09rem;
+}
+.heading--3 {
+	font-size: 1.7rem;
+	display: block;
+	margin: 1rem;
+	font-weight: 400;
+	letter-spacing: 0.09rem;
+}
