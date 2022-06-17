@@ -1,0 +1,38 @@
+.installation {
+	background-color: var(--color-grey-light-1);
+	grid-area: installation;
+	display: flex;
+	flex-direction: column;
+	padding: 1rem 2rem;
+	height: 75vh;
+}
+
+.installation__text-box {
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: space-between;
+	justify-content: space-evenly;
+}
+.installation__img-box {
+	padding: 2rem;
+	display: flex;
+}
+.installation__img-box iframe {
+	width: 100%;
+	border: 2px solid var(--color-primary);
+}
+@media only screen and (max-width: 450px) {
+	.installation {
+		grid-template-columns: 1fr;
+	}
+	.installation__text-box {
+		justify-content: center;
+	}
+	.installation__img-box {
+		justify-self: center;
+	}
+}
+.installation-links {
+	align-self: flex-start;
+}
