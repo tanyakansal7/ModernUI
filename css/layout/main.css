@@ -1,0 +1,67 @@
+.doc-main {
+	padding: 3rem;
+	overflow: auto;
+}
+.doc-main-item {
+	display: flex;
+	flex-direction: column;
+}
+.main__example {
+	border: 1px solid rgba(0, 0, 0, 0.185);
+	display: flex;
+	font-size: 1.6rem;
+	border-radius: 0.5rem;
+	padding: 1rem;
+	
+}
+.flex-item{
+	padding: 2rem 3rem;
+}
+.collapsible{
+	background-color: var(--color-grey-light-2);
+	border-radius: 3px;
+	display: flex;
+	width: 15%;
+	height: 3.5rem;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	transition: all 0.1s;
+	
+}
+.collapsible:hover{
+	transform: scale(1.04);
+	background-color: darkgrey;
+	
+}
+.main__code {
+	box-sizing: border-box;
+	width: 100%;
+	display: none;
+	max-height: 50rem;
+	padding: 2rem;
+	font-size:2rem;
+	margin: 2rem 0;
+	background-color: #fafafa;
+	overflow: auto;
+}
+.feature__list {
+	display: flex;
+	width: 100%;
+
+	flex-direction: column;
+	align-items: flex-start;
+	margin: 2rem 0;
+}
+.main__code iframe {
+	width: 100%;
+	border: none;
+}
+.code-bg {
+	background-color: var(--color-grey-light-1);
+}
+.row-container {
+	align-items: center;
+	flex-wrap: wrap;
+	align-items: center;
+}
