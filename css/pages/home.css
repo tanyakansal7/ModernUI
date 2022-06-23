@@ -1,0 +1,13 @@
+.main-container {
+	font-size: 2rem;
+	display:flex;
+	flex-direction: column;
+	background-color: var(--color-grey-light-1);
+	width: 100%;
+
+}
+.home-nav{
+	position: fixed;
+	top: 0;
+	z-index: 1000;
+}
