@@ -1,0 +1,1589 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+		integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+	<title>ModernUI</title>
+</head>
+
+<body>
+
+	<div class="doc-container">
+		<div class="hamburger-nav ">
+			<!-- <input type="checkbox" class="hamburger__checkbox" id="navi-toggle"> -->
+
+			<label for="navi-toggle" class="hamburger__button">
+				<span class="hamburger__icon">&nbsp;</span>
+			</label>
+			<div class="hamburger__background">&nbsp;</div>
+			<nav class="hamburger__nav">
+				<ul class="hamburger__list invisible">
+
+					<li class="hamburger__item">
+						<a class="hamburger__link" href="#alerts"> Alerts</a>
+					</li>
+					<li class="hamburger__item">
+						<a class="hamburger__link" href="#avatar"> Avatar</a>
+					</li>
+					<li class="hamburger__item">
+						<a class="hamburger__link" href="#badge"> Badge</a>
+					</li>
+					<li class="hamburger__item">
+						<a class="hamburger__link" href="#button"> Button</a>
+					</li>
+					<li class="hamburger__item">
+						<a class="hamburger__link" href="#input"> Input</a>
+					</li>
+					<li class="hamburger__item">
+						<a class="hamburger__link" href="#cards"> Cards</a>
+					</li>
+					<li class="hamburger__item">
+						<a class="hamburger__link" href="#button"> Images</a>
+					</li>
+					<li class="hamburger__item">
+						<a class="hamburger__link" href="#typography"> Typography</a>
+					</li>
+					<li class="hamburger__item">
+						<a class="hamburger__link" href="#lists"> Lists</a>
+					</li>
+					<li class="hamburger__item">
+						<a class="hamburger__link" href="#navigation"> Navigation</a>
+					</li>
+					<li class="hamburger__item">
+						<a class="hamburger__link" href="#modal"> Modal</a>
+					</li>
+					<li class="hamburger__item">
+						<a class="hamburger__link" href="#button"> Rating</a>
+					</li>
+					<li class="hamburger__item">
+						<a class="hamburger__link" href="#button"> Toast</a>
+					</li>
+					<li class="hamburger__item">
+						<a class="hamburger__link" href="#button"> Grids</a>
+					</li>
+					<li class="hamburger__item">
+						<a class="hamburger__link" href="#button"> Slider</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<div class="doc-nav">
+			<div class="navigation">
+				<div class="navigation__items--1">
+					<img src="./src/logo2.png" class="navigation__items navigation__logo" alt="" />
+					<a class="navigation__items navigation-items--1-links" href="./index.html">Home</a>
+					<!-- <a class="navigation__items navigation-items--1-links" href="./documentation.html">Docs</a> -->
+				</div>
+			
+				<div class="navigation__items--2">
+					<i class="navigation__items navigation__items-icons fab fa-github"></i>
+					<i class="navigation__items navigation__items-icons fab fa-twitter"></i>
+					<i class="navigation__items navigation__items-icons fab fa-linkedin"></i>
+				</div>
+			</div>
+		</div>
+		<div class="doc-main">
+			<!-- -----------ALERTS--------- -->
+			<section class="doc-main-item" id="alerts">
+				<div class="main__header">
+					<h1 class="heading--1">Alerts</h1>
+					<h1 class="heading--2">
+						Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages.
+					</h1>
+				</div>
+				<!-- ABOUT SECTION AND CLASSES -->
+				<div class="main__about">
+					<h1 class="heading--1-medium">Usage and Example</h1>
+					<h1 class="heading--3">
+						<ul class="feature__list">
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg">alert-error</code> :</span>
+								Alert with an error
+							</li>
+
+							<li class="types">
+								<span class="color-primary"><code class="code-bg">alert-success</code> :</span>
+								Alert with an error
+							</li>
+
+							<li class="types">
+								<span class="color-primary"><code class="code-bg">alert-info</code> :</span>
+								Alert with an error
+							</li>
+
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg"> alert-warning</code> :</span>
+								Alert with an error
+							</li>
+						</ul>
+					</h1>
+				</div>
+				<!-- EXAMPLE BOX -->
+				<div class="main__example flex-col">
+					<div class="alert-box alert-error">
+						<span><i class="fas fa-exclamation-triangle"></i></span>
+						There was an error processing your request
+					</div>
+					<div class="alert-box alert-success">
+						<span><i class="fas fa-check-circle"></i></span>
+						There was an error processing your request
+					</div>
+					<div class="alert-box alert-info">
+						<span><i class="fas fa-info-circle"></i></span>
+						There was an error processing your request
+					</div>
+					<div class="alert-box alert-warning">
+						<span><i class="fas fa-exclamation-circle"></i></span>
+						There was an error processing your request
+					</div>
+				</div>
+				<!-- CODE EXAMPLE -->
+				<div class="u-margin-bottom-small"></div>
+				<h1 class=" heading--2 bold-0 collapsible">Code <i class="fas fa-code"></i></h1>
+				<div class="main__code">
+					<script src="https://gist.github.com/tanyakansal7/549f2244139fc893e66b78d500d3e220.js"></script>
+				</div>
+			</section>
+			<!-- --------------------------- -->
+			<div class="u-margin-bottom-medium"></div>
+			<hr />
+			<div class="u-margin-bottom-medium"></div>
+
+			<!-- -----------AVATAR--------- -->
+			<section class="doc-main-item" id="avatar">
+				<div class="main__header">
+					<h1 class="heading--1">Avatar</h1>
+					<h1 class="heading--2">
+						Avatar are used to communicate a state that affects a system,
+						feature or page.
+					</h1>
+				</div>
+				<!-- VARIANTS -->
+				<div class="main__about">
+					<h1 class="heading--1-medium">Variants</h1>
+					<h1 class="heading--2">Use these classes to apply the styles</h1>
+					<h1 class="heading--3">
+						<ul class="feature__list">
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg">avatar-img</code>:
+								</span> Avatar with image
+							</li>
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg">avatar-icon</code>:
+								</span> Avatar with icon
+							</li>
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg">avatar-text</code>:
+								</span> Avatar with text
+							</li>
+						</ul>
+					</h1>
+				</div>
+				<!-- EXAMPLE BOX -->
+				<div class="main__example row-container">
+					<img class="avatar-circle avatar-sm avatar-img" src="./src/avatar.jpg" alt="" />
+					<div class="avatar-circle avatar-sm avatar-icon"><i class="fas fa-camera"></i></div>
+					<div class="avatar-circle avatar-text avatar-sm">AC</div>
+				</div>
+				<div class="u-margin-bottom-small"></div>
+				<h1 class=" heading--2 bold-0 collapsible">Code <i class="fas fa-code"></i>:</h1>
+				<div class="main__code">
+					<script src="https://gist.github.com/tanyakansal7/cf7b986ae200a6982bd34f6549cc3006.js"></script>
+					<!-- 	style="border: 0; transform: scale(1); overflow: hidden" -->
+				</div>
+				<!-- SHAPES OF AVATAR- SQUARE/ CIRCLE-->
+				<div class="main__about">
+					<h1 class="heading--1-medium">Shapes</h1>
+					<h1 class="heading--2">There are two shapes in which you can style your avatar. Just add the
+						following classes to your avatar to give it the desired shape!</h1>
+
+					<h1 class="heading--3">
+						<ul class="feature__list">
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg">avatar-circle</code>:
+								</span> Circle shaped avatar
+							</li>
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg">avatar-box</code>:
+								</span> Box shaped avatar
+							</li>
+						</ul>
+					</h1>
+				</div>
+				<div class="main__example row-container">
+					<!-- Circle small avatar with icon -->
+					<div class="avatar-circle avatar-sm avatar-icon">
+						<i class="fas fa-camera"></i>
+					</div>
+					<!-- Boxed small avatar with icon -->
+					<div class="avatar-box avatar-sm avatar-icon">
+						<i class="fas fa-camera"></i>
+					</div>
+					<!--  small avatar with image -->
+					<img class="avatar-img avatar-box avatar-sm" src="./src/avatar.jpg" alt="" />
+					<!-- circle small avatar with image -->
+					<img class="avatar-img avatar-circle avatar-sm" src="./src/avatar.jpg" alt="" />
+					<!-- circle avatar with text -->
+					<div class="avatar-circle avatar-text avatar-sm">AC</div>
+					<!-- box avatar with text -->
+					<div class="avatar-box avatar-text avatar-sm">AC</div>
+				</div>
+				<div class="u-margin-bottom-small"></div>
+				<h1 class=" heading--2 bold-0 collapsible">Code <i class="fas fa-code"></i></h1>
+				<div class="main__code">
+					<script src="https://gist.github.com/tanyakansal7/f6112466f2563c95f86f565fd2762fc0.js"></script>
+				</div>
+				<!-- SIZES -->
+
+				<div class="main__about">
+					<h1 class="heading--1-medium">Sizes</h1>
+					<h1 class="heading--2">There are 5 sizes available for different usecases! Change the size using the
+						following classes:</h1>
+					<h1 class="heading--3">
+						<ul class="feature__list">
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg">avatar-xs</code>
+								</span>
+							</li>
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg">avatar-sm</code>
+								</span>
+							</li>
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg">avatar-md</code>
+								</span>
+							</li>
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg">avatar-lg</code>
+								</span>
+							</li>
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg">avatar-xl</code>
+								</span>
+							</li>
+						</ul>
+					</h1>
+				</div>
+				<div class="main__example row-container">
+					<!-- xs avatar -->
+					<img class="avatar-img avatar-circle avatar-xs" src="./src/avatar.jpg" alt="" />
+					<!-- sm avatar -->
+					<img class="avatar-img avatar-circle avatar-sm" src="./src/avatar.jpg" alt="" />
+					<!-- md avatar -->
+					<img class="avatar-img avatar-circle avatar-md" src="./src/avatar.jpg" alt="" />
+					<!-- lg avatar -->
+					<img class="avatar-img avatar-circle avatar-lg" src="./src/avatar.jpg" alt="" />
+					<!-- xl avatar -->
+					<img class="avatar-img avatar-circle avatar-xl" src="./src/avatar.jpg" alt="" />
+				</div>
+				<div class="u-margin-bottom-small"></div>
+				<h1 class=" heading--2 bold-0 collapsible">Code <i class="fas fa-code"></i></h1>
+				<div class="main__code">
+					<script src="https://gist.github.com/tanyakansal7/48b2758ad67322a5fb82c42b5fa29bdf.js"></script>
+				</div>
+			</section>
+			<!-- -------------------------- -->
+			<div class="u-margin-bottom-medium"></div>
+			<hr />
+			<div class="u-margin-bottom-medium"></div>
+
+			<!-- ------------BADGE-------------- -->
+			<section class="doc-main-item" id="badge">
+				<div class="main__header">
+					<h1 class="heading--1">Badges</h1>
+					<h1 class="heading--2">
+						Badges are used to highlight an item's status for quick
+						recognition.
+					</h1>
+				</div>
+				<div class="main__about">
+					<h1 class="heading--1-medium">Variants</h1>
+					<h1 class="heading--2">Use <span class="color-primary">
+							<code class="code-bg">img-badge</code>
+						</span></h1>
+					<h1 class="heading--3">
+						<ul class="feature__list">
+
+							Avatar with a badge. These badges can be used with 4 variants
+							of avatar:
+							<span class="color-primary">
+								<code class="code-bg">avatar-xs</code>,
+							</span>
+							<span class="color-primary">
+								<code class="code-bg">avatar-sm</code>,
+							</span>
+							<span class="color-primary">
+								<code class="code-bg">avatar-md</code>,
+							</span>
+							<span class="color-primary">
+								<code class="code-bg">avatar-lg</code>
+							</span>
+							<br />
+							You can use:
+							<ol class="feature-list">
+								<li class="types">
+									<span class="color-primary">
+										<code class="code-bg">badge-online: </code>
+									</span>
+									A badge for online status
+								</li>
+								<br />
+								<li class="types">
+									<span class="color-primary">
+										<code class="code-bg">badge-offline: </code>
+									</span>
+									A badge for offline status
+								</li>
+								<br />
+								<li class="types">
+									<span class="color-primary">
+										<code class="code-bg">badge-dnd: </code>
+									</span>
+									A badge for do not disturb
+								</li>
+								<br />
+							</ol>
+
+							<h1 class="heading--2">Use <span class="color-primary">
+									<code class="code-bg">icon-badge</code>
+								</span></h1>
+
+							<ol class="feature-list">
+								This icon badge must be used with the
+								<span class="color-primary">
+									<code class="code-bg">btn-lg</code>
+								</span>
+								icon button:
+								<span class="color-primary">
+									<code class="code-bg">btn-tertiary-icon</code>
+								</span>
+							</ol>
+
+						</ul>
+					</h1>
+				</div>
+				<div class="main__example row-container">
+					<!-- AVATAR BADGE -->
+					<div class="badge-box">
+						<img class="avatar-img avatar-circle avatar-xs" src="./src/avatar.jpg" alt="" />
+						<span class="img-badge badge-online"></span>
+					</div>
+					<div class="badge-box">
+						<img class="avatar-img avatar-circle avatar-sm" src="./src/avatar.jpg" alt="" />
+						<span class="img-badge badge-offline"></span>
+					</div>
+					<div class="badge-box">
+						<img class="avatar-img avatar-circle avatar-md" src="./src/avatar.jpg" alt="" />
+						<span class="img-badge badge-online"></span>
+					</div>
+					<div class="badge-box">
+						<img class="avatar-img avatar-circle avatar-lg" src="./src/avatar.jpg" alt="" />
+						<span class="img-badge badge-dnd"></span>
+					</div>
+					<!-- ICON BADGE -->
+					<div class="badge-box">
+						<a href="" class="btn btn-tertiary-icon btn-lg"><i class="fas fa-bell"></i></a>
+						<span class="icon-badge">2</span>
+					</div>
+				</div>
+				<div class="u-margin-bottom-small"></div>
+				<h1 class=" heading--2 bold-0 collapsible">Code <i class="fas fa-code"></i></h1>
+				<div class="main__code">
+					<script src="https://gist.github.com/tanyakansal7/a7175609ffba5d2282238be00756a797.js"></script>
+				</div>
+			</section>
+			<!-- --------------------------- -->
+			<div class="u-margin-bottom-medium"></div>
+			<hr />
+			<div class="u-margin-bottom-medium"></div>
+			<!-- -----------BUTTONS--------- -->
+			<section class="doc-main-item" id="button">
+				<div class="main__header">
+					<h1 class="heading--1">Buttons</h1>
+					<h1 class="heading--2">
+						The Button component is used to trigger an action or event, such
+						as submitting a form, opening a dialog, canceling an action, or
+						performing a delete operation.
+					</h1>
+				</div>
+				<div class="main__about">
+					<h1 class="heading--1-medium">Variants</h1>
+					<h1 class="heading--3">
+						<ul class="feature__list">
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg">btn-primary</code> :</span>
+								Solid Button
+							</li>
+
+							<li class="types">
+								<span class="color-primary"><code class="code-bg">btn-secondary</code> :</span>
+								Button with an outline
+							</li>
+
+							<li class="types">
+								<span class="color-primary"><code class="code-bg">btn-ghost</code> :</span>
+								Button without an outline
+							</li>
+
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg"> btn-link</code> :</span>
+								Button for links
+							</li>
+							<li class="types">
+								Button with an icon
+							</li>
+						</ul>
+					</h1>
+				</div>
+				<div class="main__example row-container">
+					<!-- Primary Button -->
+					<a href="" class="btn btn-base">Button</a>
+					<!-- Secondary Button -->
+					<a href="" class="btn btn-base-secondary">Button</a>
+					<!-- Ghost Button -->
+					<a href="" class="btn btn-ghost">Button</a>
+					<!-- Link Button -->
+					<a href="" class="btn btn-link">Button</a>
+					<!-- Button with Icon -->
+					<div class="button-box">
+						<a href="" class="btn btn-base">Button</a>
+						<i class="fa fa-shopping-cart btn-box-icon"></i>
+					</div>
+				</div>
+				<div class="u-margin-bottom-small"></div>
+				<h1 class=" heading--2 bold-0 collapsible">Code <i class="fas fa-code"></i></h1>
+				<div class="main__code">
+					
+				</div>
+				<div class="main__about">
+					<h1 class="heading--1-medium">Sizes</h1>
+					<h1 class="heading--2">
+						There are 4 sizes provided for the buttons:
+					</h1>
+					<h1 class="heading--3">
+						<ul class="feature__list">
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg">btn-xs</code>
+								</span>
+							</li>
+
+							<li class="types">
+								<span class="color-primary"><code class="code-bg">btn-sm</code>
+								</span>
+							</li>
+
+							<li class="types">
+								<span class="color-primary"><code class="code-bg">btn-md</code>
+								</span>
+							</li>
+
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg"> btn-lg</code>
+								</span>
+							</li>
+						</ul>
+					</h1>
+				</div>
+				<div class="main__example row-container">
+					<!-- extra Small button  -->
+					<a href="" class="btn btn-base btn-xs">Button</a>
+					<!-- Small button  -->
+					<a href="" class="btn btn-base btn-sm">Button</a>
+					<!-- Medium button  -->
+					<a href="" class="btn btn-base btn-md">Button</a>
+					<!-- Large button  -->
+					<a href="" class="btn btn-base btn-lg">Button</a>
+				</div>
+				<div class="u-margin-bottom-small"></div>
+				<h1 class=" heading--2 bold-0 collapsible">Code <i class="fas fa-code"></i></h1>
+				<div class="main__code">
+					
+				</div>
+				<div class="main__about">
+					<h1 class="heading--1-medium">Custom Buttons</h1>
+					<h1 class="heading--2">
+						2 more types of buttons:
+					</h1>
+					<h1 class="heading--3">
+						<ul class="feature__list">
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg">btn-tertiary-float</code> :</span>
+								Floating button
+							</li>
+
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg"> btn-tertiary-icon</code> :</span>
+								Icon button
+							</li>
+						</ul>
+					</h1>
+				</div>
+				<div class="main__example row-container">
+					<!-- Floating Button -->
+					<a href="" class="btn btn-tertiary-float"><i class="fas fa-arrow-up"></i></a>
+					<!-- Icon Button -->
+					<a href="" class="btn btn-tertiary-icon"><i class="fas fa-trash-alt"></i></a>
+				</div>
+				<div class="u-margin-bottom-small"></div>
+				<h1 class=" heading--2 bold-0 collapsible">Code <i class="fas fa-code"></i></h1>
+				<div class="main__code">
+					
+				</div>
+			</section>
+			<!-- --------------------------- -->
+			<div class="u-margin-bottom-medium"></div>
+			<hr />
+			<div class="u-margin-bottom-medium"></div>
+			<!-- -------------CARDS-------------- -->
+			<section class="doc-main-item" id="cards">
+				<div class="main__header">
+					<h1 class="heading--1">Cards</h1>
+					<h1 class="heading--2">
+						Alerts are used to communicate a state that affects a system,
+						feature or page.
+					</h1>
+				</div>
+
+				<!-- HORIZONTAL CARDS -->
+				<div class="main__about">
+					<h1 class="heading--1-medium">Horizontal Cards</h1>
+				</div>
+				<div class="main__example row-container">
+					<!-- Card with image and text -->
+					<div class="card-container">
+						<div class="img-box u-margin-bottom-small">
+							<img src="./src/img.jpg" alt="" />
+						</div>
+						<div class="card-header u-margin-bottom-small">
+							<h3 class="card-heading-primary">Our Changing Planet</h3>
+							<h4 class="card-heading-sub bold-1">By Tanya Kansal</h4>
+						</div>
+						<div class="card-body u-margin-bottom-small">
+							Visit ten places on our planet that are undergoing the biggest
+							changes today.
+						</div>
+						<div class="card-footer">
+							<a class="btn btn-base btn-sm">Read This</a>
+							<a class="btn btn-base btn-sm">Bookmark</a>
+							<a href="" class="btn btn-tertiary-icon btn-xs"><i class="fas fa-heart"></i></a>
+
+							<a href="" class="btn btn-tertiary-icon btn-xs"><i class="fas fa-share-alt"></i></a>
+						</div>
+					</div>
+					<!-- Card with image and text overlay -->
+					<div class="card-container">
+						<div class="img-box u-margin-bottom-small">
+							<img src="./src/img.jpg" alt="" />
+						</div>
+						<div class="card-header overlay u-margin-bottom-small">
+							<h3 class="card-heading-primary">Our Changing Planet</h3>
+							<h4 class="card-heading-sub bold-1">By Tanya Kansal</h4>
+						</div>
+						<div class="card-body u-margin-bottom-small">
+							Visit ten places on our planet that are undergoing the biggest
+							changes today.
+						</div>
+						<div class="card-footer">
+							<a class="btn btn-base btn-sm">Read This</a>
+							<a class="btn btn-base btn-sm">Bookmark</a>
+							<a href="" class="btn btn-tertiary-icon btn-xs"><i class="fas fa-heart"></i></a>
+
+							<a href="" class="btn btn-tertiary-icon btn-xs"><i class="fas fa-share-alt"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="u-margin-bottom-small"></div>
+				<h1 class=" heading--2 bold-0 collapsible">Code <i class="fas fa-code"></i></h1>
+				<div class="main__code">
+					
+				</div>
+				<div class="main__about">
+					<h1 class="heading--1-medium">Horizontal Cards</h1>
+				</div>
+				<div class="main__example row-container">
+					<div class="card-container">
+						<div class="card-header u-margin-bottom-small heading-top">
+							<h3 class="card-heading-primary">Our Changing Planet</h3>
+							<h4 class="card-heading-sub bold-1">By Tanya Kansal</h4>
+						</div>
+						<div class="card-body u-margin-bottom-small">
+							Visit ten places on our planet that are undergoing the biggest
+							changes today.
+						</div>
+						<div class="card-footer">
+							<a class="btn btn-base btn-sm">Read This</a>
+							<a class="btn btn-base btn-sm">Bookmark</a>
+							<a href="" class="btn btn-tertiary-icon btn-xs"><i class="fas fa-heart"></i></a>
+
+							<a href="" class="btn btn-tertiary-icon btn-xs"><i class="fas fa-share-alt"></i></a>
+						</div>
+					</div>
+					<div class="card-container small">
+						<div class="flex">
+							<div class="img-box small-img u-margin-bottom-small">
+								<img src="./src/img.jpg" alt="" />
+							</div>
+
+							<div class="card-header card-header-small u-margin-bottom-small">
+								<h3 class="card-heading-primary">Our Changing Planet</h3>
+								<h4 class="card-heading-sub bold-1">By Tanya Kansal</h4>
+							</div>
+						</div>
+
+						<div class="card-footer">
+							<a class="btn btn-base btn-sm">Read This</a>
+							<a class="btn btn-base btn-sm">Bookmark</a>
+							<a href="" class="btn btn-tertiary-icon btn-xs"><i class="fas fa-heart"></i></a>
+
+							<a href="" class="btn btn-tertiary-icon btn-xs"><i class="fas fa-share-alt"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="main__about">
+					<h1 class="heading--1-medium">Vertical Cards</h1>
+					<h1 class="heading--3">
+						<ul class="feature__list">
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg">alert-error</code> :</span>
+								Alert with an error
+							</li>
+
+							<li class="types">
+								<span class="color-primary"><code class="code-bg">alert-success</code> :</span>
+								Alert with an error
+							</li>
+
+							<li class="types">
+								<span class="color-primary"><code class="code-bg">alert-info</code> :</span>
+								Alert with an error
+							</li>
+
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg"> alert-warning</code> :</span>
+								Alert with an error
+							</li>
+						</ul>
+					</h1>
+				</div>
+				<div class="main__example row-container">
+					<!-- Card with a Badge -->
+					<div class="vertical-card">
+						<div class="card-img">
+							<span class="card-badge">New</span>
+							<img src="./src/product.jpg" alt="" />
+						</div>
+						<div class="card-text">
+							<h3 class="card-title">Green Tea Face Serum</h3>
+							<div class="card-price">
+								₹100 <span class="card-price-striked">₹100</span>
+							</div>
+						</div>
+						<div class="card-btn">
+							<div class="button-box">
+								<a href="" class="btn btn-base btn-sm">ADD TO CART</a>
+								<i class="fa fa-shopping-cart btn-box-icon"></i>
+							</div>
+							<a href="" class="btn btn-tertiary-icon"><i class="fas fa-heart"></i></a>
+						</div>
+					</div>
+					<!-- Simple Card -->
+					<div class="vertical-card">
+						<div class="card-img">
+							<img src="./src/product.jpg" alt="" />
+						</div>
+						<div class="card-text">
+							<h3 class="card-title">Green Tea Face Serum</h3>
+							<div class="card-price">
+								₹100 <span class="card-price-striked">₹100</span>
+							</div>
+						</div>
+						<div class="card-btn">
+							<div class="button-box">
+								<a href="" class="btn btn-base btn-sm">ADD TO CART</a>
+								<i class="fa fa-shopping-cart btn-box-icon"></i>
+							</div>
+							<a href="" class="btn btn-tertiary-icon"><i class="fas fa-heart"></i></a>
+						</div>
+					</div>
+					<!-- Card with Dismiss -->
+					<div class="vertical-card">
+						<div class="card-img">
+							<div class="card-dismiss">
+								<i class="fas fa-times"></i>
+							</div>
+
+							<img src="./src/product.jpg" alt="" />
+						</div>
+						<div class="card-text">
+							<h3 class="card-title">Green Tea Face Serum</h3>
+							<div class="card-price">
+								₹100 <span class="card-price-striked">₹100</span>
+							</div>
+						</div>
+						<div class="card-btn">
+							<div class="button-box">
+								<a href="" class="btn btn-base btn-sm">ADD TO CART</a>
+								<i class="fa fa-shopping-cart btn-box-icon"></i>
+							</div>
+							<a href="" class="btn btn-tertiary-icon"><i class="fas fa-heart"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="u-margin-bottom-small"></div>
+				<h1 class=" heading--2 bold-0 collapsible">Code <i class="fas fa-code"></i></h1>
+				<div class="main__code">
+					
+				</div>
+			</section>
+				<!-- --------------------------- -->
+				<div class="u-margin-bottom-medium"></div>
+				<hr />
+				<div class="u-margin-bottom-medium"></div>
+			<!-- -----------INPUT COMPONENT--------- -->
+			<section class="doc-main-item" id="input">
+				<div class="main__header">
+					<h1 class="heading--1">Input</h1>
+					<h1 class="heading--2">
+						The Input component is a component that is used to get user input
+						in a text field.
+					</h1>
+				</div>
+				<div class="main__about">
+					<h1 class="heading--1-medium">Basic</h1>
+					<h1 class="heading--3">
+						<ul class="feature__list">
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg">input-box</code> :</span>
+								A basic input field
+							</li>
+						</ul>
+					</h1>
+				</div>
+				<div class="main__example flex-col">
+					<!-- BASIC INPUT -->
+					<input type="text" class="basic-input" placeholder="Basic Input" />
+				</div>
+				<div class="u-margin-bottom-small"></div>
+				<h1 class=" heading--2 bold-0 collapsible">Code <i class="fas fa-code"></i></h1>
+				<div class="main__code">
+					
+				</div>
+				<div class="main__about">
+					<h1 class="heading--1-medium">Variants</h1>
+					<h1 class="heading--2">
+						These are the following variants provided:
+					</h1>
+					<h1 class="heading--3">
+						<ul class="feature__list">
+							<!-- CLASSES FOR THE VARIANTS OF INPUT -->
+							<li class="types">
+
+								A basic input field with icon
+							</li>
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg">valid-input</code> :</span>
+								Used when the text entered is valid
+							</li>
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg">invalid-input</code> :</span>
+								Used when the text entered is invalid
+
+							</li>
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg">filled-input</code> :</span>
+								A basic input field with filled background
+							</li>
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg">input-rounded</code> :</span>
+								A basic input field with rounded edges
+							</li>
+						</ul>
+					</h1>
+				</div>
+				<div class="main__example flex-col">
+					<!-- INPUT WITH AN ICON -->
+					<div class="input-box">
+						<i class="fa fa-envelope input__box-icon"></i>
+						<input type="text" class="basic-input" placeholder="Input with an icon" />
+					</div>
+					<!-- VALID INPUT -->
+					<input type="text" class="basic-input valid-input" placeholder="Valid Input" />
+					<!-- INVALID INPUT -->
+					<input type="text" class="basic-input invalid-input" placeholder="Invalid Input" />
+					<!-- FILLED INPUT -->
+					<input type="text" class="basic-input filled-input" placeholder="Filled Input" />
+					<!-- INPUT WITH ROUNDED CORNERS -->
+					<input type="text" class="basic-input input-rounded" placeholder="Search..." />
+				</div>
+				<div class="u-margin-bottom-small"></div>
+				<h1 class=" heading--2 bold-0 collapsible">Code <i class="fas fa-code"></i></h1>
+				<div class="main__code">
+					
+				</div>
+				<div class="main__about">
+					<h1 class="heading--1-medium">Sizes</h1>
+					<h1 class="heading--2">
+						3 sizes provided:
+					</h1>
+					<h1 class="heading--3">
+						<ul class="feature__list">
+							<!-- SMALL INPUT CLASS -->
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg">input-sm</code> :</span>
+								A basic input field
+							</li>
+							<!-- MEDIUM INPUT CLASS -->
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg">input-md</code> :</span>
+								A basic input field
+							</li>
+							<!-- LARGE INPUT CLASS -->
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg">input-lg</code> :</span>
+								A basic input field
+							</li>
+						</ul>
+					</h1>
+				</div>
+				<div class="main__example flex-col">
+					<!-- SMALL INPUT -->
+					<input type="text" class="basic-input input-sm" placeholder="Valid Input" />
+					<!-- MEDIUM INPUT -->
+					<input type="text" class="basic-input imput-md" placeholder="Invalid Input" />
+					<!-- LARGE INPUT -->
+					<input type="text" class="basic-input input-lg" placeholder="Search..." />
+				</div>
+				<div class="u-margin-bottom-small"></div>
+				<h1 class=" heading--2 bold-0 collapsible">Code <i class="fas fa-code"></i></h1>
+				<div class="main__code">
+					
+				</div>
+			</section>
+			
+			<!-- --------------------------- -->
+			<div class="u-margin-bottom-medium"></div>
+			<hr />
+			<div class="u-margin-bottom-medium"></div>
+			<!-- ------------TYPOGRAPHY--------------- -->
+			<section class="doc-main-item" id="typography">
+				<div class="main__header">
+					<h1 class="heading--1">Typography</h1>
+					<h1 class="heading--2">
+						Headings:
+					</h1>
+				</div>
+				<!-- ABOUT SECTION AND CLASSES -->
+				<div class="main__about">
+					<h1 class="heading--1-medium">Usage and Example</h1>
+					<h1 class="heading--3">
+						<ul class="feature__list">
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg">heading-1</code> </span>
+							</li>
+
+							<li class="types">
+								<span class="color-primary"><code class="code-bg">heading-2</code> </span>
+							</li>
+
+							<li class="types">
+								<span class="color-primary"><code class="code-bg">heading-3</code> </span>
+							</li>
+
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg"> heading-4</code> </span>
+							</li>
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg"> heading--2</code> </span>
+							</li>
+						</ul>
+					</h1>
+				</div>
+				<!-- EXAMPLE BOX -->
+				<div class="main__example flex-col">
+					<!-- HEADING SIZE - 1  -->
+					<h1 class="heading-1">Heading 1</h1>
+					<!-- HEADING SIZE - 2  -->
+					<h1 class="heading-2">Heading 2</h1>
+					<!-- HEADING SIZE - 3  -->
+					<h1 class="heading-3">Heading 3</h1>
+					<!-- HEADING SIZE - 4  -->
+					<h1 class="heading-4">Heading 4</h1>
+					<!-- HEADING SIZE - 5  -->
+					<h1 class="heading--2">Heading 5</h1>
+				</div>
+				<!-- CODE EXAMPLE -->
+				<div class="u-margin-bottom-small"></div>
+				<h1 class=" heading--2 bold-0 collapsible">Code <i class="fas fa-code"></i></h1>
+				<div class="main__code">
+					
+				</div>
+				<div class="main__about">
+					<h1 class="heading--1-medium">Usage and Example</h1>
+					<h1 class="heading--3">
+						<ul class="feature__list">
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg">p-sm</code> :</span>
+								paragraph with small text
+							</li>
+
+							<li class="types">
+								<span class="color-primary"><code class="code-bg">p-md</code> :</span>
+								paragraph with medium text
+							</li>
+
+							<li class="types">
+								<span class="color-primary"><code class="code-bg">p-lg</code> :</span>
+								paragraph with large text
+
+							</li>
+
+
+						</ul>
+					</h1>
+				</div>
+				<!-- EXAMPLE BOX -->
+				<div class="main__example flex-col">
+					<!-- SMALL P -->
+					<p class="p-sm"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, commodi.
+						Consequuntur, nesciunt illo blanditiis nihil accusamus quisquam placeat fugiat maiores. </p>
+					<div class="u-margin-bottom-small"></div>
+					<!-- MEDIUM P -->
+					<p class="p-md"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, commodi.
+						Consequuntur, nesciunt illo blanditiis nihil accusamus quisquam placeat fugiat maiores. </p>
+					<div class="u-margin-bottom-small"></div>
+					<!-- LARGE P -->
+					<p class="p-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quasi maxime
+						nulla
+						tempore provident ipsum velit aperiam nihil doloremque non.</p>
+				</div>
+				<!-- CODE EXAMPLE -->
+				<div class="u-margin-bottom-small"></div>
+				<h1 class=" heading--2 bold-0 collapsible">Code <i class="fas fa-code"></i></h1>
+				<div class="main__code">
+				
+				</div>
+				<div class="main__about">
+					<h1 class="heading--1-medium">Text Alignment</h1>
+					<h1 class="heading--3">
+						<ul class="feature__list">
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg">text-centered</code> :</span>
+								Text aligned at the center of the screen
+							</li>
+
+							<li class="types">
+								<span class="color-primary"><code class="code-bg">text-right</code> :</span>
+								Text aligned at the right side of the screen
+							</li>
+
+							<li class="types">
+								<span class="color-primary"><code class="code-bg">text-left</code> :</span>
+								Text aligned at the left side of the screen
+
+							</li>
+
+
+						</ul>
+					</h1>
+				</div>
+				<!-- EXAMPLE BOX -->
+				<div class="main__example flex-col">
+					<!-- CENTERED TEXT -->
+					<h1 class="heading--2 text-centered">Heading-Center</h1>
+					<!-- RIGHT ALIGNED TEXT -->
+					<h1 class="heading--2 text-right">Heading-Center</h1>
+					<!-- LEFT ALIGNED TEXT -->
+					<h1 class="heading--2 text-left">Heading-Center</h1>
+				</div>
+				<!-- CODE EXAMPLE -->
+				<div class="u-margin-bottom-small"></div>
+				<h1 class=" heading--2 bold-0 collapsible">Code <i class="fas fa-code"></i></h1>
+				<div class="main__code">
+					
+				</div>
+			</section>
+			<!-- --------------------------- -->
+			<div class="u-margin-bottom-medium"></div>
+			<hr />
+			<div class="u-margin-bottom-medium"></div>
+			<!-- -------------LISTS-------------- -->
+			<section class="doc-main-item" id="lists">
+				<div class="main__header">
+					<h1 class="heading--1">Lists</h1>
+					<h1 class="heading--2">
+						Lists can be used at so many places, navigation bar, stacked notifications, article pages, etc.
+					</h1>
+				</div>
+				<!-- ABOUT SECTION AND CLASSES -->
+				<div class="main__about">
+					<h1 class="heading--1-medium">Unordered Lists</h1>
+					<h1 class="heading--3">
+						<ul class="feature__list">
+							Use the code provided below to create an unordered list.
+						</ul>
+					</h1>
+				</div>
+				<!-- EXAMPLE BOX -->
+				<div class="main__example row-container">
+					<!-- NORMAL BULLETS -->
+					<ul class="list-style flex-item">
+						<li>Item 1</li>
+						<li>Item 1</li>
+						<li>Item 1</li>
+						<li>Item 1</li>
+					</ul>
+					<!-- SQUARED BULLET -->
+					<ul class="list-style flex-item  square-bullets">
+						<li>Item 1</li>
+						<li>Item 1</li>
+						<li>Item 1</li>
+						<li>Item 1</li>
+					</ul>
+					<!-- CIRCLE BULLET -->
+					<ul class="list-style flex-item  empty-bullets">
+						<li>Item 1</li>
+						<li>Item 1</li>
+						<li>Item 1</li>
+						<li>Item 1</li>
+					</ul>
+
+				</div>
+				<!-- CODE EXAMPLE -->
+				<div class="u-margin-bottom-small"></div>
+				<h1 class=" heading--2 bold-0 collapsible">Code <i class="fas fa-code"></i></h1>
+				<div class="main__code">
+					
+				</div>
+				<!-- Ordered Lists -->
+				<div class="main__about">
+					<h1 class="heading--1-medium">Ordered Lists</h1>
+					<h1 class="heading--3">
+						<ul class="feature__list">
+							Use the code provided below to create an ordered list.
+						</ul>
+					</h1>
+				</div>
+				<!-- EXAMPLE BOX -->
+				<div class="main__example row-container">
+					<!-- NORMAL OL -->
+					<ol class="list-style flex-item ">
+						<li>Item 1</li>
+						<li>Item 2</li>
+						<li>Item 3</li>
+						<li>Item 4</li>
+					</ol>
+					<!-- Small case OL -->
+					<ol class="list-style flex-item list-alpha-lower">
+						<li>Item Item with Capital letters in Lowercase 1</li>
+						<li>Item Item with Capital letters in Lowercase 2</li>
+						<li>Item Item with Capital letters in Lowercase 3</li>
+						<li>Item Item with Capital letters in Lowercase 4</li>
+					</ol>
+					<!-- Upper case OL -->
+					<ol class="list-style flex-item list-alpha-upper">
+						<li>Item with Capital letters in Uppercase 1</li>
+						<li>Item with Capital letters in Uppercase 2</li>
+						<li>Item with Capital letters in Uppercase 3</li>
+						<li>Item with Capital letters in Uppercase 4</li>
+					</ol>
+					<!-- Roman OL -->
+					<ol class="list-style flex-item list-roman">
+						<li>Item with Roman numerals 1</li>
+						<li>Item with Roman numerals 2</li>
+						<li>Item with Roman numerals 3</li>
+						<li>Item with Roman numerals 4</li>
+					</ol>
+					<!-- Reversed OL -->
+					<ol class="list-style flex-item list-alpha-upper " reversed>
+						<li>Item with Capital letters but reversed 1</li>
+						<li>Item with Capital letters but reversed 2</li>
+						<li>Item with Capital letters but reversed 3</li>
+						<li>Item with Capital letters but reversed 4</li>
+					</ol>
+				</div>
+				<!-- CODE EXAMPLE -->
+				<div class="u-margin-bottom-small"></div>
+				<h1 class=" heading--2 bold-0 collapsible">Code <i class="fas fa-code"></i></h1>
+				<div class="main__code">
+					
+				</div>
+				<div class="main__about">
+					<h1 class="heading--1-medium">Stacked Components</h1>
+					<h1 class="heading--3">
+						<ul class="feature__list">
+							Use the code provided below to create stacked list of components.
+						</ul>
+					</h1>
+				</div>
+				<!-- EXAMPLE BOX -->
+				<div class="main__example row-container">
+					<ul class="list-style no-bullets">
+						<!-- List Item -1 -->
+						<li>
+							<div class="card-container small">
+								<div class="flex">
+									<div class="img-box small-img u-margin-bottom-small">
+										<img src="./src/img.jpg" alt="" />
+									</div>
+
+									<div class="card-header card-header-small u-margin-bottom-small">
+										<h3 class="card-heading-primary">Our Changing Planet-1</h3>
+										<h4 class="card-heading-sub bold-1">By Tanya Kansal</h4>
+									</div>
+								</div>
+
+								<div class="card-footer">
+									<a class="btn btn-base btn-sm">Read This</a>
+									<a class="btn btn-base btn-sm">Bookmark</a>
+									<a href="" class="btn btn-tertiary-icon btn-xs"><i class="fas fa-heart"></i></a>
+
+									<a href="" class="btn btn-tertiary-icon btn-xs"><i class="fas fa-share-alt"></i></a>
+								</div>
+							</div>
+						</li>
+						<!-- List Item -2 -->
+						<li>
+							<div class="card-container small">
+								<div class="flex">
+									<div class="img-box small-img u-margin-bottom-small">
+										<img src="./src/img.jpg" alt="" />
+									</div>
+
+									<div class="card-header card-header-small u-margin-bottom-small">
+										<h3 class="card-heading-primary">Our Changing Planet-2</h3>
+										<h4 class="card-heading-sub bold-1">By Tanya Kansal</h4>
+									</div>
+								</div>
+
+								<div class="card-footer">
+									<a class="btn btn-base btn-sm">Read This</a>
+									<a class="btn btn-base btn-sm">Bookmark</a>
+									<a href="" class="btn btn-tertiary-icon btn-xs"><i class="fas fa-heart"></i></a>
+
+									<a href="" class="btn btn-tertiary-icon btn-xs"><i class="fas fa-share-alt"></i></a>
+								</div>
+							</div>
+						</li>
+						<!-- List Item -3 -->
+						<li>
+							<div class="card-container small">
+								<div class="flex">
+									<div class="img-box small-img u-margin-bottom-small">
+										<img src="./src/img.jpg" alt="" />
+									</div>
+
+									<div class="card-header card-header-small u-margin-bottom-small">
+										<h3 class="card-heading-primary">Our Changing Planet-3</h3>
+										<h4 class="card-heading-sub bold-1">By Tanya Kansal</h4>
+									</div>
+								</div>
+
+								<div class="card-footer">
+									<a class="btn btn-base btn-sm">Read This</a>
+									<a class="btn btn-base btn-sm">Bookmark</a>
+									<a href="" class="btn btn-tertiary-icon btn-xs"><i class="fas fa-heart"></i></a>
+
+									<a href="" class="btn btn-tertiary-icon btn-xs"><i class="fas fa-share-alt"></i></a>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<!-- CODE EXAMPLE -->
+				<div class="u-margin-bottom-small"></div>
+				<h1 class=" heading--2 bold-0 collapsible">Code <i class="fas fa-code"></i></h1>
+				<div class="main__code">
+					
+				</div>
+			</section>
+			<!-- --------------------------- -->
+			<div class="u-margin-bottom-medium"></div>
+			<hr />
+			<div class="u-margin-bottom-medium"></div>
+			<!-- --------------------------- -->
+			<!-- -----------NAVIGATION--------- -->
+			<section class="doc-main-item" id="navigation">
+				<div class="main__header">
+					<h1 class="heading--1">Navigation Bar</h1>
+					<h1 class="heading--2">
+						A pre-built navigation bar. It's completely responsive. Copy the code to use it in your project!
+					</h1>
+				</div>
+				<!-- ABOUT SECTION AND CLASSES -->
+				<div class="main__about">
+					<h1 class="heading--1-medium">Example</h1>
+					<h1 class="heading--3">
+					</h1>
+				</div>
+				<!-- EXAMPLE BOX -->
+				<div class="main__example flex-col">
+					<div class="navigation-box">
+						<div class="logo-box">Logo<span class="color-primary">UI</span></div>
+						<div class="menu-box">
+							<ul class="menu-list no-bullets ">
+								<li class="menu-item">
+									<a href=""> Home</a>
+
+								</li>
+								<li class="menu-item">
+									<a href=""> Shop</a>
+
+								</li>
+							</ul>
+						</div>
+						<div class="nav-search">
+							<div class="input-box">
+								<i class="fa fa-search input__box-icon"></i>
+								<input type="text" class="basic-input " placeholder="Input with an icon" />
+							</div>
+
+						</div>
+						<div class="nav-list">
+							<ul class="no-bullets nav-ul">
+								<li class="nav-child">
+									<i class="fas fa-user"></i>
+									<a href=""> User</a>
+								</li>
+								<li class="nav-child">
+									<i class="fas fa-heart"></i>
+
+									<a href="">Wishlist</a>
+								</li>
+								<li class="nav-child">
+									<i class="fas fa-shopping-cart"></i>
+
+									<a href="">Cart</a>
+								</li>
+							</ul>
+						</div>
+						<div class="nav-ham">
+							<i class="fa fa-bars"></i>
+						</div>
+					</div>
+				</div>
+				<!-- CODE EXAMPLE -->
+				<div class="u-margin-bottom-small"></div>
+				<h1 class=" heading--2 bold-0 collapsible">Code <i class="fas fa-code"></i></h1>
+				<div class="main__code">
+					
+				</div>
+			</section>
+			<!-- --------------------------- -->
+			<div class="u-margin-bottom-medium"></div>
+			<hr />
+			<div class="u-margin-bottom-medium"></div>
+
+			<!-- -----------MODALS--------- -->
+			<section class="doc-main-item" id="modal">
+				<div class="main__header">
+					<h1 class="heading--1">Modals</h1>
+					<h1 class="heading--2">
+						Alerts are used to communicate a state that affects a system,
+						feature or page.
+					</h1>
+				</div>
+				<!-- ABOUT SECTION AND CLASSES -->
+				<div class="main__about">
+					<h1 class="heading--1-medium">Usage and Example</h1>
+					<h1 class="heading--3">
+						<ul class="feature__list">
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg">alert-error</code> :</span>
+								Alert with an error
+							</li>
+
+							<li class="types">
+								<span class="color-primary"><code class="code-bg">alert-success</code> :</span>
+								Alert with an error
+							</li>
+
+							<li class="types">
+								<span class="color-primary"><code class="code-bg">alert-info</code> :</span>
+								Alert with an error
+							</li>
+
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg"> alert-warning</code> :</span>
+								Alert with an error
+							</li>
+						</ul>
+					</h1>
+				</div>
+				<!-- EXAMPLE BOX -->
+
+				<div class="main__example row-container">
+					<a href="" class="btn btn-base modal-btn">Modal-1</a>
+					<a href="" class="btn btn-base modal-btn">Modal-2 </a>
+					<!-- MODAL TYPE - 1 -->
+					<div class="modal-box ">
+						<div class="modal">
+
+							<div class="modal-header flex">
+								<h1 class="heading--2">Modal Heading</h1>
+								<a href="" class="btn btn-tertiary-icon modal-dismiss"><i class="fas fa-times"></i></a>
+
+							</div>
+							<div class="modal-body">
+								<p class="p-1">
+									Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic magni tempora placeat?
+									Exercitationem porro quae libero iusto cumque natus rerum eveniet molestias
+									assumenda sunt veritatis, sequi minima ea a repudiandae aut ex cum ullam quidem
+									obcaecati aliquid. Culpa illum facilis modi sit quod inventore. Ab eos amet
+									laboriosam dicta eaque quam veniam, ex veritatis consectetur ad, expedita
+									repudiandae officiis quas!
+								</p>
+							</div>
+							<div class="modal-footer"></div>
+						</div>
+					</div>
+					<!-- MODAL TYPE - 2  WITH BTNS-->
+					<div class="modal-box ">
+
+						<div class="modal">
+
+							<div class="modal-header flex">
+								<h1 class="heading--2">Modal Heading</h1>
+								<a href="" class="btn btn-tertiary-icon modal-dismiss"><i class="fas fa-times"></i></a>
+
+							</div>
+							<div class="modal-body">
+								<p class="p-1">
+									Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic magni tempora placeat?
+									Exercitationem porro quae libero iusto cumque natus rerum eveniet molestias
+
+								</p>
+							</div>
+							<div class="modal-footer">
+								<a href="" class="btn btn-primary">Save</a>
+								<a href="" class="btn btn-secondary">Cancel</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- CODE EXAMPLE -->
+				<div class="u-margin-bottom-small"></div>
+				<h1 class=" heading--2 bold-0 collapsible">Code <i class="fas fa-code"></i></h1>
+				<div class="main__code">
+					
+				</div>
+			</section>
+			<!-- --------------------------- -->
+			<div class="u-margin-bottom-medium"></div>
+			<hr />
+			<div class="u-margin-bottom-medium"></div>
+			<!-- --------------------------- -->
+			<section class="doc-main-item" id="snackbar">
+				<div class="main__header">
+					<h1 class="heading--1">Snackbar & Toasts</h1>
+					<h1 class="heading--2">
+						Alerts are used to communicate a state that affects a system,
+						feature or page.
+					</h1>
+				</div>
+				<!-- ABOUT SECTION AND CLASSES -->
+				<div class="main__about">
+					<h1 class="heading--1-medium">Snackbar</h1>
+					<h1 class="heading--2">
+						Snackbars provide brief feedback about an operation through a message at the bottom of the
+						screen.
+					</h1>
+					<h1 class="heading--3">
+						<ul class="feature__list">
+							<li class="types">
+								The code below can be used to add snackbars!
+							</li>
+						</ul>
+					</h1>
+				</div>
+				<!-- EXAMPLE BOX -->
+				<div class="main__example row-container">
+
+					<div class="snackbar-body">
+						<button class="btn snack-toggle btn-base">Basic Snackbar</button>
+						<button class="btn snack-toggle btn-base">Stacked snackbar</button>
+					</div>
+
+
+					<div class="snackbar invisible">
+						<div class="snackbar-text">Can't send photo. Retry in 5 seconds.</div>
+						<button class="snackbar-btn btn">retry</button>
+						<i class="fas fa-times snackbar-icon"></i>
+					</div>
+
+					<div class="snackbar stacked invisible">
+						<div class="snackbar-text">
+							This item already has the label "travel". You can add a new label.
+						</div>
+						<div class="snackbar-btn-container">
+							<button class="snackbar-btn btn">Add new label</button>
+							<i class="fas fa-times snackbar-icon"></i>
+						</div>
+					</div>
+				</div>
+				<!-- CODE EXAMPLE -->
+				<div class="u-margin-bottom-small"></div>
+				<h1 class=" heading--2 bold-0 collapsible">Code <i class="fas fa-code"></i></h1>
+				<div class="main__code">
+					
+				</div>
+				<div class="main__about">
+					<h1 class="heading--1-medium">Toast</h1>
+					<h1 class="heading--3">
+						<ul class="feature__list">
+
+							<li class="types">
+								The code below can be used to add Toasts!
+							</li>
+						</ul>
+					</h1>
+				</div>
+				<!-- EXAMPLE BOX -->
+				<div class="main__example row-container">
+
+					<div class="snackbar-body">
+						<button class="btn toast-toggle btn-base">Success</button>
+						<button class="btn toast-toggle btn-base">Error</button>
+					</div>
+
+
+					<div class="toast-box toast-success invisible">
+						<div class="p-2">Saved!</div>
+					</div>
+					<div class="toast-box toast-error invisible">
+						<div class="p-2">Error!</div>
+
+					</div>
+				</div>
+				<!-- CODE EXAMPLE -->
+				<div class="u-margin-bottom-small"></div>
+				<h1 class=" heading--2 bold-0 collapsible">Code <i class="fas fa-code"></i></h1>
+				<div class="main__code">
+					
+				</div>
+			</section>
+			<!-- --------------------------- -->
+			<div class="u-margin-bottom-medium"></div>
+			<hr />
+			<div class="u-margin-bottom-medium"></div>
+
+		</div>
+		<div class="doc-sidebar">
+			<input type="search" class="basic-input input-sm" placeholder="Search Docs..">
+			<h1 class="sidebar__heading u-margin-bottom-small u-center-text heading--1-medium">
+				Components
+			</h1>
+			
+			<ul class="sidebar-list u-center-text">
+				<li class="sidebar__items">
+					<a class="sidebar__links" href="#alerts"> Alerts</a>
+				</li>
+				<li class="sidebar__items">
+					<a class="sidebar__links" href="#avatar"> Avatar</a>
+				</li>
+				<li class="sidebar__items">
+					<a class="sidebar__links" href="#badge"> Badge</a>
+				</li>
+				<li class="sidebar__items">
+					<a class="sidebar__links" href="#button"> Button</a>
+				</li>
+				<li class="sidebar__items">
+					<a class="sidebar__links" href="#cards"> Cards</a>
+				</li>
+				<li class="sidebar__items">
+					<a class="sidebar__links" href="#button"> Forms</a>
+				</li>
+				<li class="sidebar__items">
+					<a class="sidebar__links" href="#button"> Grids</a>
+				</li>
+				<li class="sidebar__items">
+					<a class="sidebar__links" href="#input"> Input</a>
+				</li>
+				<li class="sidebar__items">
+					<a class="sidebar__links" href="#button"> Images</a>
+				</li>
+				<li class="sidebar__items">
+					<a class="sidebar__links" href="#lists"> Lists</a>
+				</li>
+				<li class="sidebar__items">
+					<a class="sidebar__links" href="#navigation"> Navigation</a>
+				</li>
+				<li class="sidebar__items">
+					<a class="sidebar__links" href="#modal"> Modal</a>
+				</li>
+				<li class="sidebar__items">
+					<a class="sidebar__links" href="#button"> Rating</a>
+				</li>
+				<li class="sidebar__items">
+					<a class="sidebar__links" href="#snackbar"> Toast</a>
+				</li>
+				<li class="sidebar__items">
+					<a class="sidebar__links" href="#button"> Slider</a>
+				</li>
+				<li class="sidebar__items">
+					<a class="sidebar__links" href="#typography"> Typography</a>
+				</li>
+			</ul>
+		</div>
+
+		<footer class="doc-footer footer flex-col-center bold">
+			<div class="footer__text-box">
+				Made with <span class="color-primary">&lt;/&gt;</span> by Tanya Kansal
+			</div>
+			<div class="footer__icons-box">
+				<i class="footer__items footer__items-icons fab fa-github"></i>
+				<i class="footer__items footer__items-icons fab fa-twitter"></i>
+				<i class="footer__items footer__items-icons fab fa-linkedin"></i>
+			</div>
+			<div class="footer__copyright-box">
+				&copy; 2022 Modern<span class="color-primary">UI</span>
+			</div>
+		</footer>
+	</div>
+	<script src="./script.js"></script>
+	<script src="./components/snackbar.js"></script>
+	<script src="./code-collapse.js"></script>
+	<script src="./components/Modal.js"></script>
+	<script src="./css/components/hamburger.js"></script>
+</body>
+
+</html>
