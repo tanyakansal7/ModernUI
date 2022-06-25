@@ -1,3 +1,6 @@
+@import url('./css/base/base.css');
+@import url('./css/base/typography.css');
+@import url('./css/base/utilities.css');
 @import url('/components/alert.css');
 @import url('/components/button.css');
 @import url('/components/avatar.css');
@@ -9,3 +12,7 @@
 @import url('/components/navigation.css');
 @import url('/components/modals.css');
 @import url('./components/snackbar.css');
+@import url('/components/images.css');
+@import url('/components/rating.css');
+@import url('/components/slider.css');
+@import url('/components/grids.css');

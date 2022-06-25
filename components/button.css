@@ -46,11 +46,11 @@
 }
 .btn-primary {
 	color: var(--color-white);
-	background-color: var(--color-primary);
+	background-color: var(--color-yellow-dark);
 }
 .btn-secondary {
-	border: 0.2rem solid var(--color-primary);
-	color: var(--color-primary);
+	border: 0.2rem solid var(--color-yellow-dark);
+	color: var(--color-yellow-dark);
 }
 .btn-base{
 	background-color:var(--color-yellow-dark) ;
@@ -106,3 +106,5 @@
 .btn-tertiary-icon:hover {
 	color: var(--color-grey-dark-3);
 }
+
+
