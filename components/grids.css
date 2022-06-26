@@ -1,0 +1,20 @@
+.grid-50-50{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.grid-30-70{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.grid-70-30{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+.grid-item-1{
+    background-color: #f3dda9;
+}
+.grid-item-2{
+    background-color: #e47c21;
+
+}
+
