@@ -1,0 +1,34 @@
+.rating {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 4rem 5rem;
+  }
+  
+  .rating label {
+    float: right;
+    position: relative;
+    width: 4rem;
+    height: 4rem;
+    cursor: pointer;
+  }
+  
+  .rating label:not(:first-of-type) {
+    padding-right: 2px;
+  }
+  
+  .rating label:before {
+    content: "★";
+    font-size: 4.2rem;
+    color: #CCCCCC;
+    line-height: 1;
+  }
+  
+  .rating input {
+    display: none;
+  }
+  
+  .rating input:checked~label:before,
+  .rating:not(:checked)>label:hover:before,
+  .rating:not(:checked)>label:hover~label:before {
+    color: #dfa125;
+  }
