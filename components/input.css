@@ -45,6 +45,7 @@
 /* ----INVALID INPUT WITH RED----- */
 .invalid-input {
 	background-color: var(--color-red);
+
 }
 .invalid-input:focus {
 	outline: none;
